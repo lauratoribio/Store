@@ -1,0 +1,41 @@
+.mainSection {
+    margin-top: 5rem;
+    padding: 4rem 2rem;
+    background-image: url("./images/main-section.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    font-family: $primaryfont;
+    text-align: center;
+    margin-bottom: 4rem;
+
+    h1 {
+        color: $beige;
+
+    }
+
+    p {
+        color: $beige;
+        font-weight: 200;
+    }
+    
+    .button {
+        font-size: 1rem;
+        font-family: $primaryfont;
+        font-weight: 500;
+        color: $orange;
+        padding: 0.4rem 1.2rem;
+        background-color: $beige;
+        border: none;
+        margin: 0.3rem;
+        border-radius: 20px;
+        border: solid 1px $beige;
+        &:hover {
+            color: $beige;
+            background-color: $orange;
+            border: solid 1px $beige;
+        }
+    }
+
+}
+

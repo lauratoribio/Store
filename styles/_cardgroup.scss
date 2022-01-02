@@ -1,0 +1,55 @@
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+  h5 {
+    font-family: $primaryfont;
+  color: $green;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 800; 
+  
+  span {
+    font-weight: 500; 
+    color: $darkPink;
+  }
+ }
+}
+
+.card-group {
+    margin-bottom: 4rem;
+
+    .card {
+       border-radius: 20px;
+
+        img {
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            background-color: $orange;
+            color: $pink;
+            font-family: $primaryfont;
+            font-weight: 400;
+            border-color: $orange;
+            padding: 0.5rem 1rem;
+            &:hover {
+              background-color: $pink;
+              color: $orange;
+            }
+          }
+          .card-title {
+            font-family: $primaryfont;
+            color: $orange;
+            font-weight: bold;
+          }
+          .card-text {
+            font-family: $primaryfont;
+            font-weight: 500;
+            font-size: 1.5rem;
+            color: $green;
+          }
+    }
+}

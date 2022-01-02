@@ -1,0 +1,89 @@
+.section1 {
+    background-image: url("./images/jackets.jpg");
+    background-size: cover;
+    background-position: center;
+    h1 {
+        font-family: $primaryfont;
+        color: $orange;
+    }
+    p {
+        font-family: $primaryfont; 
+        color: $darkPink;
+    }
+    button {
+        font-family: $primaryfont; 
+        color: $orange;
+        padding: 0.4rem 1.2rem;
+        background-color: $pink;
+        border: none;
+        margin: 0.3rem;
+        border-radius: 20px;
+        border: solid 1px $pink;
+        &:hover {
+            color: $pink;
+            background-color: $orange;
+            border: solid 1px $pink;
+        }
+    }
+}
+
+.section2 {
+    .section2-1 {
+        background-image: url("./images/shoes.jpg");
+        background-size: cover;
+        background-position: center;
+        h2 {
+            font-family: $primaryfont;
+            font-weight: 700;
+            color: $orange;
+        }
+        p {
+            font-family: $primaryfont; 
+            color: $darkPink;
+        }
+        button {
+            font-family: $primaryfont; 
+            color: $orange;
+            padding: 0.4rem 1.2rem;
+            background-color: $pink;
+            border: none;
+            margin: 0.3rem;
+            border-radius: 20px;
+            border: solid 1px $pink;
+            &:hover {
+                color: $pink;
+                background-color: $orange;
+                border: solid 1px $pink;
+            }
+        }
+    }
+    .section2-2 {
+        background-image: url("./images/outfitss.jpg");
+        background-size: cover;
+        background-position: center;
+        h2 {
+            font-family: $primaryfont;
+            font-weight: 700;
+            color: $orange;
+        }
+        p {
+            font-family: $primaryfont; 
+            color: $darkPink;
+        }
+        button {
+            font-family: $primaryfont; 
+            color: $orange;
+            padding: 0.4rem 1.2rem;
+            background-color: $pink;
+            border: none;
+            margin: 0.3rem;
+            border-radius: 20px;
+            border: solid 1px $pink;
+            &:hover {
+                color: $pink;
+                background-color: $orange;
+                border: solid 1px $pink;
+            }
+        }
+    }
+}
