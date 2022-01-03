@@ -136,7 +136,7 @@ header nav ol button:hover {
 }
 
 .mainSection {
-  margin-top: 5rem;
+  margin-top: 4rem;
   padding: 4rem 2rem;
   background-image: url("./images/main-section.jpg");
   background-position: center;
@@ -246,6 +246,7 @@ header nav ol button:hover {
 }
 
 .section1 {
+  margin-top: 2rem;
   background-image: url("./images/banner-jackets.jpg");
   background-size: cover;
   background-position: top;
