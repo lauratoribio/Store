@@ -5,9 +5,9 @@
   margin: 2rem 0rem;
   h5 {
     font-family: $primaryfont;
-  color: $green;
-  font-size: 2.5rem;
-  text-transform: uppercase;
+  color: $orange;
+  font-size: 3rem;
+  //text-transform: uppercase;
   font-weight: 800; 
   
   span {
@@ -18,14 +18,17 @@
 }
 
 .card-group {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 
     .card {
        border-radius: 20px;
 
         img {
-            width: 250px;
-            margin: 0 auto;
+          width: auto;
+          max-height: 250px;
+          max-width: 200px;
+          height: auto;
+          margin: 0 auto;
         }
 
         .btn {

@@ -146,7 +146,7 @@ header nav ol button:hover {
   display: flex;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .mainSection h1 {
@@ -192,9 +192,8 @@ header nav ol button:hover {
 
 .sectionTitle h5 {
   font-family: "Poppins", sans-serif;
-  color: #b4a841;
-  font-size: 2.5rem;
-  text-transform: uppercase;
+  color: #DE571E;
+  font-size: 3rem;
   font-weight: 800;
 }
 
@@ -204,7 +203,7 @@ header nav ol button:hover {
 }
 
 .card-group {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .card-group .card {
@@ -212,7 +211,10 @@ header nav ol button:hover {
 }
 
 .card-group .card img {
-  width: 250px;
+  width: auto;
+  max-height: 250px;
+  max-width: 200px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -244,9 +246,9 @@ header nav ol button:hover {
 }
 
 .section1 {
-  background-image: url("./images/jackets.jpg");
+  background-image: url("./images/banner-jackets.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .section1 h1 {
@@ -274,6 +276,10 @@ header nav ol button:hover {
   color: #FFCFCF;
   background-color: #DE571E;
   border: solid 1px #FFCFCF;
+}
+
+.section2 {
+  margin-bottom: 5rem;
 }
 
 .section2 .section2-1 {
@@ -311,9 +317,9 @@ header nav ol button:hover {
 }
 
 .section2 .section2-2 {
-  background-image: url("./images/outfitss.jpg");
+  background-image: url("./images/banner-outfits.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 .section2 .section2-2 h2 {

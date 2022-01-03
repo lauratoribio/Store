@@ -5,16 +5,20 @@ window.onload = () => {
 
          let body = document.querySelector("body")
          let divCard = document.querySelectorAll(".card")
+         let i = 0
          for(let product of data) {
-             let cardImage = document.querySelector(".productImage")
+             i = i + 1
+             let imageId = "productImage" + i
+             let titleId = "productName" + i
+             let priceId = "productPrice" + i
+
+             let cardImage = document.getElementById(imageId)
              cardImage.src = product.image
-             let cardTitle = document.querySelector(".productName")
+             let cardTitle = document.getElementById(titleId)
              cardTitle.innerText = product.title
-             let cardPrice = document.querySelector(".productPrice")
-             cardPrice.innerText = product.price
-             divCard.appendChild(cardImage)
-             divCard.appendChild(cardTitle)
-             divCard.appendChild(cardPrice)
+             let cardPrice = document.getElementById(priceId)
+             cardPrice.innerText = product.price + "€"
+
          }
     } 
 
@@ -33,7 +37,7 @@ window.onload = () => {
 
         // }
 
-    fetch('https://fakestoreapi.com/products?limit=5')
+    fetch('https://fakestoreapi.com/products?limit=11')
     .then(res=>res.json())
     .then(json=> {
         console.log(json)

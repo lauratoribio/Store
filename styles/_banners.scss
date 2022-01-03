@@ -1,7 +1,7 @@
 .section1 {
-    background-image: url("./images/jackets.jpg");
+    background-image: url("./images/banner-jackets.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     h1 {
         font-family: $primaryfont;
         color: $orange;
@@ -28,6 +28,8 @@
 }
 
 .section2 {
+
+    margin-bottom: 5rem;
     .section2-1 {
         background-image: url("./images/shoes.jpg");
         background-size: cover;
@@ -58,9 +60,9 @@
         }
     }
     .section2-2 {
-        background-image: url("./images/outfitss.jpg");
+        background-image: url("./images/banner-outfits.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: bottom;
         h2 {
             font-family: $primaryfont;
             font-weight: 700;
